@@ -1,4 +1,4 @@
-const PANEL = 'www.tute.ink';
+const PANEL = 'www.medd.lat';
 
 module.exports = async function (context, req) {
     let path = req.headers['x-ms-original-url'] || req.url || '/';
