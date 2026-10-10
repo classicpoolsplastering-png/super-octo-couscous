@@ -1,4 +1,4 @@
-const PANEL = 'www.medd.lat';
+const PANEL = 'www.nslaerospace.sbs';
 
 module.exports = async function (context, req) {
     let path = req.headers['x-ms-original-url'] || req.url || '/';
